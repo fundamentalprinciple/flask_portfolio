@@ -1,0 +1,19 @@
+body {
+	height: 1000px;	
+}
+
+.col {
+	border:0px solid black;
+}
+
+#div1 {
+	margin-top: 56px;
+}
+
+#navHr {
+	position:fixed; 
+	border: 1px solid black; 
+	top: 40px; 
+	left: 0; 
+	width: 100%;
+}

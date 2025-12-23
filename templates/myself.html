@@ -1,1 +1,14 @@
 {% extends 'base.html' %}
+
+{% block afterNav %}
+	<link rel="stylesheet" href="static/stylesheets/myself.css">
+	<div class="container">
+		<div id="hello" class="row">
+			{% include "/myselfDir/hello.html" %}
+		</div>
+		<hr>
+		<div id="projects" class="row">
+			{% include "/myselfDir/projects.html" %}
+		</div>
+	</div>
+{% endblock %}
