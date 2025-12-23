@@ -6,7 +6,7 @@ from static.variableFiles.variables import client_name, client_bio, projectInfo
 @app.route('/')
 @app.route('/myself')
 def myself():
-    return render_template("myself.html", client_name=client_name, active1="active", client_bio=client_bio, link_project1=projectInfo[0][1], info_project1=projectInfo[0][0])
+    return render_template("myself.html", client_name=client_name, active1="active", client_bio=client_bio, title_project1=projectInfo[0][0], info_project1=projectInfo[0][1], link_project1=projectInfo[0][2])
 
 @app.route('/services')
 def services():

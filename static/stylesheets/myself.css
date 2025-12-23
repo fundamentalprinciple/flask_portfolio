@@ -1,5 +1,22 @@
+.col {
+	border: 0px solid black;
+}
+
+#helloCol {
+	min-width: 220px;
+}
+
 #hello {
-	padding-top: 50px
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+h1, h2 {
+	color: #7f8282;
+}
+
+p {
+	font-weight: 4;
 }
 
 img {
@@ -9,4 +26,28 @@ img {
 a {
 	text-decoration: none;
 	color: black;
+}
+
+#project_row {
+	padding-top: 50px;
+}
+
+#project_row_2 {
+	padding-top: 50px;
+}
+
+#project_heading_col {
+	min-width: 203px;
+}
+
+#project_img {
+	border-radius: 10px;
+	border: 3px solid lightgrey;
+	box-shadow: 7px 7px 10px lightgrey;
+	margin-bottom: 8px;
+}
+
+#col_project {
+	max-width: 330px;
+	min-width: 330px;
 }
