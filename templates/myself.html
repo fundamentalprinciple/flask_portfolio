@@ -2,13 +2,17 @@
 
 {% block afterNav %}
 	<link rel="stylesheet" href="static/stylesheets/myself.css">
-	<div class="container">
-		<div id="hello" class="row">
-			{% include "/myselfDir/hello.html" %}
-		</div>
-		<hr>
-		<div id="projects">
-			{% include "/myselfDir/projects.html" %}
-		</div>
+	<div id="hello" class="container">
+		{% include "/myselfDir/hello.html" %}
 	</div>
+	<hr>
+	<div id="showcase" class="container">
+		{% include "/myselfDir/showcase.html" %}
+	</div>
+	<hr>
+	<div id="credentials" class="container">
+		{% include "/myselfDir/credentials.html" %}
+	</div>
+	<hr>
+
 {% endblock %}

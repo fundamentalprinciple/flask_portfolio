@@ -1,68 +1,49 @@
 .col {
-	border: 1px solid lightgrey;
-}
-
-#helloCol {
-	min-width: 400px;
-	max-width: 400px;
-}
-
-#hello {
-	padding-top: 50px;
-	padding-bottom: 25px;
-}
-
-h1, h2 {
-	color: #7f8282;
+	border: 0px solid lightgrey;
 }
 
 p {
 	font-weight: 4;
 }
 
-img {
-        border-radius: 10px;
-        border: 3px solid lightgrey;
-        box-shadow: 7px 7px 10px lightgrey;	
+#hello_heading_Col, #showcase_heading_col, #credentials_heading_col {
+	min-width: 400px;
+	max-width: 400px;
 }
 
-a {
+#hello, #showcase, #credentials {
+	padding: 50px 0px;
+}
+
+h1, h2 {
+	color: grey;
+}
+
+#showcase_anchor, #credential_anchor {
 	text-decoration: none;
 	color: black;
 }
 
-#showcase_row {
-	padding-top: 50px;
-}
-
-#parent {
-	border: 1px solid lightgrey;
+#showcase_row_2, #credentials_row_2 {
+	margin-top: 50px;
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap; 
 	justify-content: center;
-	padding-top: 50px;
 }
 
-@container showcase_row_2 (width < 990px) {
-	display: flex;
-	flex-direction: column;
-        justify-content: center;	
-}
-
-#showcase_heading_col {
-	min-width:400px;
-	max-width: 400px;
-}
-
-#showcase_img {
+#showcase_img, #credential_img {
 	border-radius: 10px;
 	border: 3px solid lightgrey;
 	box-shadow: 7px 7px 10px lightgrey;
 	margin-bottom: 8px;
 }
 
-#col_showcase {
-	border: 1px solid blue;
+#col_showcase, #col_credentials {
+	font-size: small;
+	text-align: center;
 	min-width: 330px;
 	max-width: 330px;
 }
+
+

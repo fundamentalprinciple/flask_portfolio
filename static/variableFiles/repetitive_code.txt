@@ -4,6 +4,9 @@
 	<a href="/#route" class="nav-link {{ active#n }}">#route_name</a>
 </li>
 
+
+
+
 //Divs for showcase
 
 <div id="col_showcase" class="col">
@@ -13,4 +16,21 @@
                         <p><strong>{{ title_showcase#n }}</strong><p>
                         <p>{{ info_showcase#n }}</p>
         </a>
-</div> 
+</div>
+
+
+
+
+//Divs for credentials
+
+<div id="col_credentials">
+	<a id="credential_anchor" href="{{ link_credential#n }}">
+		<img id="credential_img" height='200' width='300' src="static/variableFiles/clientCredentials/credential#n.#ext">
+                <br>
+                <p><strong>{{ title_credential#n }}</strong><p>
+        </a>
+</div>
+
+
+
+ 
