@@ -1,0 +1,16 @@
+//List items for navbar
+
+<li class="nav-item">
+	<a href="/#route" class="nav-link {{ active#n }}">#route_name</a>
+</li>
+
+//Divs for showcase
+
+<div id="col_showcase" class="col">
+	<a href="{{ link_showcase#n }}">
+		 <img id="showcase_img" height='200' width='300' src="static/variableFiles/clientShowcase/showcase#n.#ext">
+                        <br>
+                        <p><strong>{{ title_showcase#n }}</strong><p>
+                        <p>{{ info_showcase#n }}</p>
+        </a>
+</div> 

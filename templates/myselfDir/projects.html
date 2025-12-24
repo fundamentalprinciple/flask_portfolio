@@ -1,19 +1,37 @@
-<div id="project_row" class="row">
+<div id="showcase_row" class="row">
 	<div class="col"></div>
-	<div id="project_heading_col" class="col">
-		<h1>My Projects</h1>
+	<div id="showcase_heading_col" class="col">
+		<!-- client's showcase -->
+		<h1>My {{ showcase_type }}</h1>
 	</div>
 	<div class="col"></div>
 </div>
-<div id="project_row_2" class="row">
-	<div id="col_project" class="col">
-		<a href="{{ link_project1 }}">
-			<img id="project_img" height='200' width='300' src="static/variableFiles/clientProjects/project1.jpg">
+<div id="showcase_row_2" class="row">
+	<div id="col_showcase" class="col">
+		<a href="{{ link_showcase1 }}">
+			<img id="showcase_img" height='200' width='300' src="static/variableFiles/clientShowcase/showcase1.jpg">
 			<br>
-			<p><strong>{{ title_project1 }}</strong><p>
-			<p>{{ info_project1 }}</p>
+			<p><strong>{{ title_showcase1 }}</strong><p>
+			<p>{{ info_showcase1 }}</p>
 		</a>	
 	</div>
-	<div class="col"></div>
-	<div class="col"></div>
+
+	<div id="col_showcase" class="col">
+        	<a href="{{ link_showcase2 }}">
+                 	<img id="showcase_img" height='200' width='300' src="static/variableFiles/clientShowcase/showcase2.png">
+                        <br>
+                        <p><strong>{{ title_showcase2 }}</strong><p>
+                        <p>{{ info_showcase2 }}</p>
+        	</a>
+	</div>
+
+        <div id="col_showcase" class="col">
+                <a href="{{ link_showcase3 }}">
+                        <img id="showcase_img" height='200' width='300' src="static/variableFiles/clientShowcase/showcase3.png">
+                        <br>
+                        <p><strong>{{ title_showcase3 }}</strong><p>
+                        <p>{{ info_showcase3 }}</p>
+                </a>
+        </div>	
+
 </div>

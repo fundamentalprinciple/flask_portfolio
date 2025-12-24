@@ -28,26 +28,26 @@ a {
 	color: black;
 }
 
-#project_row {
+#showcase_row {
 	padding-top: 50px;
 }
 
-#project_row_2 {
+#showcase_row_2 {
 	padding-top: 50px;
 }
 
-#project_heading_col {
+#showcase_heading_col {
 	min-width: 203px;
 }
 
-#project_img {
+#showcase_img {
 	border-radius: 10px;
 	border: 3px solid lightgrey;
 	box-shadow: 7px 7px 10px lightgrey;
 	margin-bottom: 8px;
 }
 
-#col_project {
+#col_showcase {
 	max-width: 330px;
 	min-width: 330px;
 }
