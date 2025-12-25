@@ -18,3 +18,29 @@ a {
 	left: 0; 
 	width: 100%;
 }
+
+#footer_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+h3 {
+	/*color: grey;*/
+}
+
+#copyright_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#footer_p {
+	font-weight: 4;
+	font-size: small;
+}
+
+#footer_anchor {
+	text-decoration: none;
+	color: grey;
+}

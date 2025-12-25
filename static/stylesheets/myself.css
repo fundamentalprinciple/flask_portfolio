@@ -6,12 +6,12 @@ p {
 	font-weight: 4;
 }
 
-#hello_heading_Col, #showcase_heading_col, #credentials_heading_col {
+#hello_heading_Col, #showcase_heading_col, #credentials_heading_col, #reviews_heading_col {
 	min-width: 400px;
 	max-width: 400px;
 }
 
-#hello, #showcase, #credentials {
+#hello, #showcase, #credentials, #reviews {
 	padding: 50px 0px;
 }
 
@@ -19,12 +19,12 @@ h1, h2 {
 	color: grey;
 }
 
-#showcase_anchor, #credential_anchor {
+#showcase_anchor, #credential_anchor, #reviews_anchor {
 	text-decoration: none;
 	color: black;
 }
 
-#showcase_row_2, #credentials_row_2 {
+#showcase_row_2, #credentials_row_2, #reviews_row_2 {
 	margin-top: 50px;
 	display: flex;
 	flex-direction: row;
@@ -32,14 +32,14 @@ h1, h2 {
 	justify-content: center;
 }
 
-#showcase_img, #credential_img {
+#showcase_img, #credential_img, #reviews_img {
 	border-radius: 10px;
 	border: 3px solid lightgrey;
 	box-shadow: 7px 7px 10px lightgrey;
 	margin-bottom: 8px;
 }
 
-#col_showcase, #col_credentials {
+#col_showcase, #col_credentials, #col_reviews {
 	font-size: small;
 	text-align: center;
 	min-width: 330px;

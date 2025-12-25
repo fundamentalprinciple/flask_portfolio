@@ -30,7 +30,13 @@
                 <p><strong>{{ title_credential#n }}</strong><p>
         </a>
 </div>
-
+<div id="col_credentials">
+        <a id="credential_anchor" href="{{ link_credential#n }}">
+                <img id="credential_img" height='200' width='300' src="static/variableFiles/clientCredentials/credential#n.#ext">
+                <br>
+                <p><strong>{{ title_credential#n }}</strong><p>
+        </a>
+</div>
 
 
  
