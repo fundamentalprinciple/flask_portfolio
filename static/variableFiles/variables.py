@@ -1,11 +1,13 @@
 client_name = "Prince Dixit"
 
-client_bio = "A full stack Python & MERN web developer. I'm into computers and all related tech. I'm self-taught and currently enrolled at IIT Madras (B.S. in Data Science and Applications, second year)."
+client_bio = "A full stack Python & MERN web developer. I'm into computers and all related tech. I'm self-taught and currently enrolled at IIT Madras (B.S. in Data Science and Applications, second year). I like to think and understand things fundamentally."
 
 showcase_type = "Projects"
 
 showcaseInfo = [("Hospital Management System (Nov 2025):", "Developed a full-stack CRUD hospital management web application with role-based access controls. Integrated Flask-Security for authentication and implemented a doctor–patient interaction workflow. Tech: Python Flask, Flask-SQLAlchemy, Flask-Security, SQLite3, HTML/CSS/JS, Jinja2, Bootstrap.", "https://github.com/fundamentalprinciple/Hospital-Management-System"), ("City weather Web App (Aug 2025):", "Developed and deployed (not live currently) a basic weather web app, implemented Flask for API calls to openweathermap.org. Tech: Flask, HTML/CSS & Jinja2.", "https://github.com/fundamentalprinciple/weather_flaskapp"), ("Portfolio WebApp for freelancing (Dec 2025):", "Developing a reproducible Portfolio webapp (recursion!) for freelancing purposes, implemented Bootstrap and custom CSS styling to make an elegant UI. Currently under development, will update this description later.", "https://github.com/fundamentalprinciple/flask_portfolio")]
 
-credentialInfo = [("Resume", "/static/variableFiles/clientCredentials/resumePDF.pdf"), ("IIT Madras certificate for completing the first two terms of the 4 year B.S. program", "/static/variableFiles/clientCredentials/IITMPDF.pdf"), ("Responsive Web Design certification from freeCodeCamp (Aug 2024)", "https://www.freecodecamp.org/certification/prince_dixit/responsive-web-design")]
+credentialInfo = [("My Resume as of 25th Nov, 2025 ", "/static/variableFiles/clientCredentials/resumePDF.pdf"), ("IIT Madras certificate for completing the first two terms of the 4 year B.S. program", "/static/variableFiles/clientCredentials/IITMPDF.pdf"), ("Responsive Web Design certification from freeCodeCamp (Aug 2024)", "https://www.freecodecamp.org/certification/prince_dixit/responsive-web-design")]
 
 copyright_year_range = "2025 - 2026"
+
+serviceList = [("Web Portfolio","Get your Web Portfolio completely handcrafted by me."), ("Programming help", "Get help on your project if you're stuck on Web Design, JavaScript, Python or anything else I can help with."), ("Job/Internship offer","If you're an employer considering to offer me a position."), ("Other", "Anything that doesn't fit these categories.")]

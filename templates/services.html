@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 
 {% block afterNav %}
-
+	<link rel="stylesheet" href="static/stylesheets/services.css">
+	<div id="flexCardsContainer" class="container">
+		{% include "servicesDir/flexCards.html" %}
+	</div>
+	<script src="static/scripts/services.js"></script>
 {% endblock %}

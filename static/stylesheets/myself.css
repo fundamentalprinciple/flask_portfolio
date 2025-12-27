@@ -8,7 +8,7 @@ p {
 
 #hello_heading_Col, #showcase_heading_col, #credentials_heading_col, #reviews_heading_col {
 	min-width: 400px;
-	max-width: 400px;
+	max-width: 400px;	
 }
 
 #hello, #showcase, #credentials, #reviews {
@@ -29,7 +29,7 @@ h1, h2 {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap; 
-	justify-content: center;
+	justify-content: space-around;
 }
 
 #showcase_img, #credential_img, #reviews_img {

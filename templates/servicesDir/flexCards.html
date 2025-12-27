@@ -1,0 +1,49 @@
+<div class="row">
+	<div class="col"></div>
+	<div class="col">
+	<h1>Services I offer</h1>
+	</div>
+	<div class="col"></div>
+</div>
+<div id="cardsRow">
+	<form method='POST' action='/services'>
+		<div id="card">
+			<img height="200" width="300" src="static/variableFiles/clientServices/service1.png">
+			<br>
+			<p><strong>{{ serviceTitle1 }}</strong></p>
+			<p>{{ serviceDesc1 }}</p>
+			<input type="hidden" name="service" value="1">
+			<button type="submit" id="service1" onclick="serviceFunc(this.id)">Book</button>
+		</div>
+	</form>
+	<form method='POST' action='/services'>
+        	<div id="card">
+			<img height="200" width="300" src="static/variableFiles/clientServices/service2.png">
+			<br>
+                	<p><strong>{{ serviceTitle2 }}</strong></p>
+                	<p>{{ serviceDesc2 }}</p>
+			<input type="hidden" name="service" value="2">
+			<button type="submit" id="service2" onclick="serviceFunc(this.id)">Book</button>
+		</div>
+	</form>
+	<form method='POST' action='/services'>
+        	<div id="card">
+                	<img height="200" width="300" src="static/variableFiles/clientServices/service3.png">
+			<br>
+                	<p><strong>{{ serviceTitle3 }}</strong></p>
+                	<p>{{ serviceDesc3 }}</p>
+			<input type="hidden" name="service" value="3">
+			<button type="submit" id="service3" onclick="serviceFunc(this.id)">Book</button>
+		</div>
+	</form>
+	<form method='POST' action='/services'>
+        	<div id="card">
+                	<img height="200" width="300" src="static/variableFiles/clientServices/service4.png">
+                	<br>
+                	<p><strong>{{ serviceTitle4 }}</strong></p>
+                	<p>{{ serviceDesc4 }}</p>
+			<input type="hidden" name="service" value="4">
+			<button type="submit" id="service4" onclick="serviceFunc(this.id)">Book</button>
+        	</div>
+	</form>
+</div>
